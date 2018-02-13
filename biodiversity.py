@@ -16,6 +16,7 @@ def _build_park_name_and_area(park_db, pfile):
     pfile.close()
     assert park_db
 
+
 def _add_species(park_db, sinfo):
     """Takes a dictionary w/ park info and adds the park species.
     Parameters: park_db is an empty dictionary.
@@ -25,7 +26,9 @@ def _add_species(park_db, sinfo):
                     sfile is an open csv file with the park flora and fauna.
     Post-conditions: park_db has flora and fauna."""
     flora = ("Algae", "Fungi", "Nonvascular Plant", "Vascular Plant")
-    fauna = ("Amphibian", "Bird", "Crab/Lobster/Shrimp", "Fish", "Insect", "Invertebrate", "Mammal", "Reptile", "Slug/Snail", "Spider/Scorpion")
+    fauna = (
+    "Amphibian", "Bird", "Crab/Lobster/Shrimp", "Fish", "Insect", "Invertebrate", "Mammal", "Reptile", "Slug/Snail",
+    "Spider/Scorpion")
     assert park_db
     assert not sinfo.closed
     keys = park_db.keys()
@@ -40,14 +43,19 @@ def _add_species(park_db, sinfo):
                     park_db[line[0]][2].append(line[1])
     sinfo.close()
 
-    def init():
-        """Initializes the park database.
-        Returns: Dictionary
-        Pre-conditions: program is running
-        Post-conditions: A non-empty park database"""
-        pinfo = open(input())
-        park_db = {}
-        _build_park_name_and_area(park_db, pinfo)
-        sinfo = open(input())
-        _add_species(park_db, sinfo)
-        return park_db
+def init():
+    """Initializes the park database.
+    Returns: Dictionary
+    Pre-conditions: program is running
+    Post-conditions: A non-empty park database"""
+    pinfo = open(input())
+    park_db = {}
+    _build_park_name_and_area(park_db, pinfo)
+    sinfo = open(input())
+    _add_species(park_db, sinfo)
+    return park_db
+
+def main():
+    park_db = init()
+
+main()
