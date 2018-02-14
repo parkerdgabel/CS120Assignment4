@@ -1,0 +1,4 @@
+Great Smoky Mountains National Park -- flora: 0.006393 per acre; fauna: 0.006307 per acre
+Guadalupe Mountains National Park -- flora: 0.013192 per acre; fauna: 0.007013 per acre
+Rocky Mountain National Park -- flora: 0.007426 per acre; fauna: 0.004386 per acre
+Mount Rainier National Park -- flora: 0.005925 per acre; fauna: 0.001473 per acre

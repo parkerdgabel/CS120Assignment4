@@ -1,0 +1,9 @@
+Grand Teton National Park -- flora: 0.004813 per acre; fauna: 0.001736 per acre
+Grand Canyon National Park -- flora: 0.001427 per acre; fauna: 0.000726 per acre
+Glacier National Park -- flora: 0.001922 per acre; fauna: 0.000600 per acre
+Glacier Bay National Park and Preserve -- flora: 0.000306 per acre; fauna: 0.000301 per acre
+Great Smoky Mountains National Park -- flora: 0.006393 per acre; fauna: 0.006307 per acre
+Great Sand Dunes National Park and Preserve -- flora: 0.014494 per acre; fauna: 0.007654 per acre
+Gates Of The Arctic National Park and Preserve -- flora: 0.000154 per acre; fauna: 0.000025 per acre
+Guadalupe Mountains National Park -- flora: 0.013192 per acre; fauna: 0.007013 per acre
+Great Basin National Park -- flora: 0.020472 per acre; fauna: 0.013903 per acre
